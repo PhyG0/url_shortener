@@ -14,7 +14,7 @@ const main = async () => {
 
     app.use(express.json());
     app.use(cors({
-        origin: "http://localhost:5173", 
+        origin: "https://url-shortener-front-end.onrender.com", 
         credentials: true}));
 
     await connectDB();
