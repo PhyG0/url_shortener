@@ -321,12 +321,12 @@ export default function Dashboard() {
                     <div className="url-main">
                       <b>{url.originalUrl}</b> →{" "}
                       <a
-                        href={`http://localhost:3000/${url.shortUrl}`}
+                        href={`https://url-shortener-tzog.onrender.com/${url.shortUrl}`}
                         target="_blank"
                         rel="noreferrer"
                         className="url-link"
                       >
-                        {`http://localhost:3000/${url.shortUrl}`}
+                        {`https://url-shortener-tzog.onrender.com/${url.shortUrl}`}
                       </a>
                     </div>
                     
